@@ -7,8 +7,9 @@ function findMatching(collection, name) {
 
 function fuzzyMatch(collection, search) {
   let result = collection.filter(function(individual) {return search === individual.slice(0,search.length)})
+  return result
 }
 
 function matchName() {
-  
+
 }
