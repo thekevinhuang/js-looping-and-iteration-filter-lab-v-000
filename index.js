@@ -5,10 +5,10 @@ function findMatching(collection, name) {
   return result
 }
 
-function fuzzyMatch() {
-
+function fuzzyMatch(collection, search) {
+  let result = collection.filter(function(individual) {return search === individual.slice(0,search.length)})
 }
 
 function matchName() {
-
+  
 }
