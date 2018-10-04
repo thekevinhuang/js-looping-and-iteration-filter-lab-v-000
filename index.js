@@ -1,7 +1,7 @@
 // Code your solution in this file
 function findMatching(collection, name) {
 
-  let result = collection.filter(function(individual) {return name.toUppercase()===individual.name.toUppercase()})
+  let result = collection.filter(function(individual) {return name.toUpperCase()===individual.name.toUpperCase()})
   return result
 }
 
