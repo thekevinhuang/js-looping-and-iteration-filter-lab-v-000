@@ -10,6 +10,6 @@ function fuzzyMatch(collection, search) {
   return result
 }
 
-function matchName() {
-
+function matchName(collection, name) {
+  let result = collection.filter(function(individual) {return name === individual.name})
 }
